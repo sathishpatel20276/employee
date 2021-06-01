@@ -58,8 +58,7 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
-db.sqlite3
-db.sqlite3-journal
+
 
 # Flask stuff:
 instance/
@@ -127,3 +126,19 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+# Distribution / packaging
+.Python
+venv/
+env/
+
+.idea/
+# Project asset folders
+media/
+# Database
+
+# Editor directories and files
+.idea
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
